@@ -220,3 +220,69 @@ footer {
   text-transform: capitalize;
 }
 /* end footer */
+
+/* start media query */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    min-height: 50%;
+  }
+  .head img {
+    width: 80%;
+    height: 80%;
+  }
+  .head span {
+    font-size: 20px;
+  }
+  nav ul li {
+    padding: 15px;
+    font-size: 10px;
+    margin: 5px;
+  }
+  aside h2 {
+    font-size: 30px;
+  }
+  aside h1 {
+    font-size: 30px;
+  }
+}
+aside p {
+  width: 100%;
+  font-size: 15px;
+  margin: 30px 0;
+  line-height: 1.5;
+}
+.box_menu {
+  width: 88%;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+.content {
+  width: 100%;
+  margin: 0 auto;
+  float: none;
+}
+.menu img {
+  width: 80%;
+  float: none;
+}
+.contact .text_box {
+  padding: 20px;
+  width: 90%;
+}
+.contact .buttons {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.contact .buttons .button {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+}
+footer {
+  font-size: 20px;
+}
